@@ -1,0 +1,144 @@
+/* (*)muda a página inteira*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+    color: #F69FB8;
+    font-weight: 400;   
+}
+
+header {
+    padding: 1.5rem 0.8rem 1.5rem 0.8rem;
+    background-color: #F69FB8;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'starborn';
+}
+
+.subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #FFC3D6;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    accent-color:  rgb(255, 255, 255);
+} 
+
+input[type="text"], input[type="password"], input[type="date"], input[type="email"]{
+    width: 100%; 
+    padding: 0.6rem;
+    border: 2px solid #F69FB8;
+    outline: none;
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+input::placeholder{
+    color: #ffd4e0; 
+}
+
+select {
+    cursor: pointer;
+    background-color: white;
+    color:#F69FB8;
+    border-radius: 50px;
+    border: 2px solid #F69FB8;
+    outline: none;
+    width: 100%; 
+    padding: 0.6rem;
+}
+
+img {
+    border-radius: 25px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #f78eac;
+    padding: 1rem;
+}
+
+td {
+    background-color: #ffb8cc;
+    padding: 1rem;
+}
+
+td, th {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+details {
+    background-color: #ffb8cc;
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 0.6rem;
+    padding-bottom: 0rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+    padding-bottom: 0.5rem;
+}
+
+ol {
+    background-color: #ffd6e2;   
+    border-radius: 15px;
+    padding: 1rem 0 0 2rem;
+    margin: 0 0.5rem 1rem 0.5rem;
+}
+
+ol li {
+    padding-bottom: 0.5rem;  
+}
+   
+footer {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    padding: 3rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
